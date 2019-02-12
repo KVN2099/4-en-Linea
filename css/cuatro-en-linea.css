@@ -1,0 +1,86 @@
+body , html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #262626;
+}
+
+.main {
+  width: 60%;
+  min-width: 700px;
+  box-sizing: border-box;
+  box-shadow: 0 0 2px;
+  background: white;
+  height: 90%;
+  padding: 10px 20px 10px;
+  margin: 20px auto;
+  min-height: 800px;
+}
+
+h2 {
+  text-align: center;
+  color: #262626;
+  font-weight: lighter;
+  font-size: 35px;
+  font-family: verdana;
+}
+
+table {
+  margin: 10px auto;
+  background: lightblue;
+  border: 1px solid #262626;
+}
+
+tr {
+  border: 1px solid #262626;
+}
+
+td {
+  border: 1px solid #262626;
+  background: #262626;
+  width: 100px;
+  height: 75px;
+}
+
+table:hover {
+  cursor: pointer;
+}
+
+tr td:hover {
+  background: gray;
+}
+
+.bot {
+  width: 80px;
+  height: 100%;
+  transition: .2s;
+}
+
+.bot:hover {
+  cursor: pointer;
+  background: #262626;
+  transition: .2s;
+}
+
+.circ {
+  display: none;
+}
+
+.on1 {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: red;
+  margin: auto;
+}
+
+.on2 {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: blue;
+  margin: auto;
+}
